@@ -1,0 +1,21 @@
+{
+  "name": "calistenia-fx-landing",
+  "version": "1.0.0",
+  "description": "CALISTENIA FX - Curso Online Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build completed - static files ready for deployment'",
+    "start": "echo 'Starting development server' && python3 -m http.server 3000 2>/dev/null || python -m http.server 3000 2>/dev/null || echo 'Python not available, serve files manually'",
+    "dev": "npm run start"
+  },
+  "keywords": [
+    "calistenia",
+    "fitness",
+    "landing-page",
+    "curso-online"
+  ],
+  "author": "Curso Online",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
